@@ -1,0 +1,29 @@
+<Project>
+
+    <PropertyGroup>
+        <Company>Vurdalakov</Company>
+        <Authors>Vurdalakov</Authors>
+        <Copyright>Copyright (c) 2021 Vurdalakov. All rights reserved.</Copyright>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <WarningLevel>4</WarningLevel>
+        <Deterministic>false</Deterministic>
+    </PropertyGroup>
+  
+    <PropertyGroup>
+        <BaseIntermediateOutputPath>$(SolutionDir)..\obj\</BaseIntermediateOutputPath>
+        <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)$(Configuration)\</MSBuildProjectExtensionsPath>
+        <BaseOutputPath>$(SolutionDir)..\bin\</BaseOutputPath>
+        <OutputPath>$(BaseOutputPath)$(Configuration)\</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(SolutionDir[1])'==':'">
+        <DefineConstants>WINDOWS</DefineConstants>
+    </PropertyGroup>
+  
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+</Project>
