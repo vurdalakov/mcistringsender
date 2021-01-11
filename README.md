@@ -1,6 +1,10 @@
 # MciStringSender
 
-A simple console application that can be used to send [Multimedia command strings](https://docs.microsoft.com/en-us/windows/win32/multimedia/multimedia-command-strings) to Media Control Interface ([MCI](https://docs.microsoft.com/en-us/windows/win32/multimedia/mci)).
+**MciStringSender** is a simple .NET 5 console application that can be used to send [Multimedia command strings](https://docs.microsoft.com/en-us/windows/win32/multimedia/multimedia-command-strings) to Media Control Interface ([MCI](https://docs.microsoft.com/en-us/windows/win32/multimedia/mci)).
+
+**[Download](../../releases/)**
+
+### Screenshots
 
 ![Play WAV file with MciStringSender](doc/MciStringSender1.png)
 
